@@ -1,0 +1,32 @@
+body{
+  font-family: sans-serif;
+}
+
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 10%;
+}
+
+.grid{
+  display: grid;
+  max-width: 300px;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid black;
+  gap: 20px;
+}
+
+.cell{
+  background-color: transparent;
+  border: 1px solid black;
+  height: 0;
+  padding-bottom: 100%;
+}
+
+.cell-activated{
+  background-color: green;
+}
