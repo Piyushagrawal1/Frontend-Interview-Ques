@@ -1,0 +1,42 @@
+.App{
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+img{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.leftBtn{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+}
+
+.rightBtn{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  right: 0;
+}
+/* write media queries  */
+@media (max-width: 768px){
+  img{
+    height: 50vh;
+  }
+}
+
+@media (max-width: 500px){
+  img{
+    height: 30vh;
+  }
+}
